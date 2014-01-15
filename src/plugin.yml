@@ -1,0 +1,11 @@
+name: register
+version: 0.0.1
+description: Registration stored in mongodb
+author: ZombieHippie
+
+main: com.inkblur.bukkit.register.Registration
+depend: [mongodb]
+
+commands:
+  register:
+    description: Register for an account on the forums
